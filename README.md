@@ -113,7 +113,11 @@ module.exports = app => {
   });
 
   User.findByLogin = function* (login) {
-    return yield this.findOne({ login: login });
+    return yield this.findOne({
+      where: {
+        login: login
+      }
+    });
   }
 
   User.prototype.logSignin = function* () {
@@ -233,17 +237,25 @@ For example:
 $ npm run migrate:up
 ```
 
-For `test` environment:
+For `unittest` environment:
 
 ```bash
-$ NODE_ENV=test npm run migrate:up
+$ EGG_SERVER_ENV=unittest npm run migrate:up
 ```
 
-or for `production` environment:
+or for `prod` environment:
 
 ```bash
-$ NODE_ENV=production npm run migrate:up
+$ EGG_SERVER_ENV=prod npm run migrate:up
 ```
+
+or for others environment:
+
+```bash
+$ EGG_SERVER_ENV=pre npm run migrate:up
+```
+
+This will load database config from `config/config.pre.js`.
 
 Write migrations with **Generator** friendly, you should use `co.wrap` method:
 

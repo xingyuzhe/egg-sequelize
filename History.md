@@ -1,4 +1,33 @@
 
+3.1.4 / 2018-05-02
+==================
+
+**fixes**
+  * [[`1fb8585`](http://github.com/eggjs/egg-sequelize/commit/1fb858533132efb1ff2b2409ffa3656cb7b48b21)] - fix: add index.d.ts to pkg.files (#51) (duncup <<dlmsoft.wolf@gmail.com>>)
+
+3.1.3 / 2018-04-13
+==================
+
+**fixes**
+  * [[`c8a1c60`](http://github.com/eggjs/egg-sequelize/commit/c8a1c60244606158b1b3a4193433e764a60e0966)] - fix: using `sequelize.Options` for  sequelize config. (#48) (ZhengFang <<215566435@qq.com>>)
+
+**others**
+  * [[`2d63647`](http://github.com/eggjs/egg-sequelize/commit/2d6364795d62d91b7d498b2c3ec6fa3be8dc9b58)] - chore:TypeScript support. (#47) (duncup <<dlmsoft.wolf@gmail.com>>)
+
+3.1.2 / 2018-02-27
+==================
+
+  * fix: auto create cli folder (#41)
+  * docs: fix demo code (#42)
+
+3.1.1 / 2018-02-06
+==================
+
+  * fix: EGG_SERVER_ENV support for seuqlieze cli (#40)
+  * docs: fix db sync doc (#31)
+  * docs: add README for `app.model` (#34)
+  * docs(README): fix a typo (#33)
+
 3.1.0 / 2017-08-03
 ==================
 
