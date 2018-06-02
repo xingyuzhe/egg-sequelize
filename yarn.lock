@@ -131,9 +131,9 @@
     "@types/empower" "*"
     "@types/power-assert-formatter" "*"
 
-"@types/sequelize@^4.27.18":
-  version "4.27.18"
-  resolved "http://registry.npm.taobao.org/@types/sequelize/download/@types/sequelize-4.27.18.tgz#0aa128af38f1d4195f586147928456c7da7d25ea"
+"@types/sequelize@^4.27.20":
+  version "4.27.20"
+  resolved "http://registry.npm.taobao.org/@types/sequelize/download/@types/sequelize-4.27.20.tgz#53827b0d890368dbecd154c52a10ab471a78d517"
   dependencies:
     "@types/bluebird" "*"
     "@types/continuation-local-storage" "*"
@@ -3855,9 +3855,13 @@ moment-timezone@^0.5.0, moment-timezone@^0.5.14:
   dependencies:
     moment ">= 2.9.0"
 
-"moment@>= 2.9.0", moment@^2.19.0, moment@^2.20.0:
+"moment@>= 2.9.0", moment@^2.19.0:
   version "2.22.1"
   resolved "http://registry.npm.taobao.org/moment/download/moment-2.22.1.tgz#529a2e9bf973f259c9643d237fda84de3a26e8ad"
+
+moment@^2.21.0:
+  version "2.22.2"
+  resolved "http://registry.npm.taobao.org/moment/download/moment-2.22.2.tgz#3c257f9839fc0e93ff53149632239eb90783ff66"
 
 ms@2.0.0:
   version "2.0.0"
@@ -4791,9 +4795,9 @@ sequelize-cli@^4.0.0:
     umzug "^2.1.0"
     yargs "^8.0.2"
 
-sequelize@^4.37.7:
-  version "4.37.7"
-  resolved "http://registry.npm.taobao.org/sequelize/download/sequelize-4.37.7.tgz#a66bfb486f438c0584c1ccc8107388311ba34780"
+sequelize@^5.0.0-beta.7:
+  version "5.0.0-beta.7"
+  resolved "http://registry.npm.taobao.org/sequelize/download/sequelize-5.0.0-beta.7.tgz#d7ba1d7c0cd23b89e89a81491105c36a3e86a3f6"
   dependencies:
     bluebird "^3.5.0"
     cls-bluebird "^2.1.0"
@@ -4803,14 +4807,14 @@ sequelize@^4.37.7:
     generic-pool "^3.4.0"
     inflection "1.12.0"
     lodash "^4.17.1"
-    moment "^2.20.0"
+    moment "^2.21.0"
     moment-timezone "^0.5.14"
     retry-as-promised "^2.3.2"
     semver "^5.5.0"
     terraformer-wkt-parser "^1.1.2"
     toposort-class "^1.0.1"
     uuid "^3.2.1"
-    validator "^9.4.1"
+    validator "^10.0.0"
     wkx "^0.4.1"
 
 serialize-json@^1.0.2:
@@ -5535,9 +5539,9 @@ validate-npm-package-license@^3.0.1:
     spdx-correct "^3.0.0"
     spdx-expression-parse "^3.0.0"
 
-validator@^9.4.1:
-  version "9.4.1"
-  resolved "http://registry.npm.taobao.org/validator/download/validator-9.4.1.tgz#abf466d398b561cd243050112c6ff1de6cc12663"
+validator@^10.0.0:
+  version "10.2.0"
+  resolved "http://registry.npm.taobao.org/validator/download/validator-10.2.0.tgz#61d6b10c3d5c9f368c75c2ce8ca2b792522eaafa"
 
 vary@^1.0.0:
   version "1.1.2"
